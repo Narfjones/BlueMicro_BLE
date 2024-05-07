@@ -25,24 +25,24 @@ LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR P
 /* key matrix size */
 #define MATRIX_ROWS 5
 #define MATRIX_COLS 6
-#define MATRIX_ROW_PINS { 13, 24, 9, 10, 38  }
-#define MATRIX_COL_PINS { 29, 2, 45, 3, 28, 43 }
+#define MATRIX_ROW_PINS { 2, 3, 4, 5, 6  }
+#define MATRIX_COL_PINS { 21, 20, 19, 18, 15, 14 }
 
 //  OLED DEFINITION
-    #define I2C_SDA_PIN 15
-    #define I2C_SCK_PIN 17
+    #define I2C_SDA_PIN 8
+    #define I2C_SCK_PIN 9
     #define DISPLAY_U8G2_CONSTRUCTOR U8G2_SSD1306_128X32_UNIVISION_F_HW_I2C // see https://github.com/olikraus/u8g2/wiki/u8g2setupcpp for reference
 
 // NOTE ONLY A SINGLE ENCODER IS POSSIBLE.
-#define ENCODER_PAD_A  26 
-#define ENCODER_PAD_B  30 
+#define ENCODER_PAD_A  7 
+#define ENCODER_PAD_B  10 
 #define ENCODER_RESOLUTION 2 // This doesn't do anything.
 
 /* COL2ROW or ROW2COL */
 #define DIODE_DIRECTION COL2ROW
 
    #define BATTERY_TYPE BATT_LIPO
-        #define VBAT_PIN  4
+        #define VBAT_PIN  3
         #define VCC_PIN 12
 #define VCC_POLARITY_ON 1
 
