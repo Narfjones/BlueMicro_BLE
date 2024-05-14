@@ -62,7 +62,7 @@ void setupKeymap() {
   KC_NO, KC_GRAVE,KC_1,    KC_2,    KC_3,    KC_4,   KC_5,  \
   KC_NO, KC_DEL  ,KC_F1  ,KC_F2  ,KC_F3  ,KC_F4  ,KC_F5  ,    \
   KC_NO, KC_LSFT ,KC_F7  ,KC_F8  ,KC_F9  ,KC_F10 ,KC_F11 , KC_SPC,   \
-                            LAYER_3,      LAYER_3, LAYER_1, KC_SPC \
+                            KC_NO, LAYER_3,      LAYER_3, LAYER_1, KC_SPC \
 );
 
     uint32_t layer2[MATRIX_ROWS][MATRIX_COLS] =
