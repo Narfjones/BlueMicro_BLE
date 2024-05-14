@@ -26,8 +26,8 @@ LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR P
 /* key matrix size */
 #define MATRIX_ROWS 5
 #define MATRIX_COLS 7
-#define MATRIX_ROW_PINS { 17, 20, 22, 24, 32, 36 }
-#define MATRIX_COL_PINS { 31, 29, 29, 47, 45, 43, 42 }
+#define MATRIX_ROW_PINS { 24, 32, 11, 36, 38 }
+#define MATRIX_COL_PINS { 2, 47, 45, 43, 10, 9, 31 }
 
 #define UNUSED_PINS {}
 
