@@ -84,11 +84,11 @@ void setupKeymap() {
 
     uint32_t layer2[MATRIX_ROWS][MATRIX_COLS] =
         KEYMAP( \
-            _______, _______, _______, _______, _______, _______, \
-            _______, KC_INS,  KC_PSCR, KC_APP,  XXXXXXX, XXXXXXX,\
-            _______, KC_LALT, KC_LCTL, KC_LSFT, XXXXXXX, KC_CAPS,\
-            _______, KC_UNDO, KC_CUT,  KC_COPY, KC_PASTE, XXXXXXX,  \
-            _______, _______, _______, _______, _______, _______ \
+            _______,   KC_F1,    KC_F2,   KC_F3,   KC_F4,   KC_F5,   _______, \
+            KC_GRV,    KC_1,     KC_2,    KC_3,    KC_4,    KC_5,    _______,\
+            _______,   KC_EXLM,  KC_AT,   KC_HASH, KC_DLR,  KC_PERC, _______,\
+            _______,   KC_EQL,   KC_MINS, KC_PLUS, KC_LCBR, KC_RCBR, _______,\
+            _______,   _______,  _______, _______, _______, _______, _______\
         );
     /*
      * add the other layers on the regular presses.
