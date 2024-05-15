@@ -26,7 +26,7 @@ std::array<std::array<Key, MATRIX_COLS>, MATRIX_ROWS> matrix =
         KC_NO, KC_1,  KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,  
         KC_NO, KC_2,  KC_A,    KC_S,    KC_D,    KC_F,    KC_G,  
         KC_NO, KC_3,  KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,  KC_SPC,
-        KC_NO, KC_4,  KC_5,    KC_6,    KC_7, KC_NO
+        KC_NO, KC_4,  KC_5,    KC_6,    KC_7,    KC_NO
     )};
 
 void setupKeymap() {
@@ -86,10 +86,10 @@ void setupKeymap() {
     uint32_t layer4[MATRIX_ROWS][MATRIX_COLS] =
         KEYMAP( \
         KC_NO, KC_GRAVE,KC_F1,   KC_F2,  KC_F3,   KC_F4,   KC_F5,  \
- KC_NO,  KC_CALC,KC_F1,   KC_F2,  KC_F3,   KC_F4, KC_VOLU,  \
- KC_NO, PRINT_INFO, _______,_______,_______, _______, KC_VOLD,    \
-  KC_NO, KC_LSFT,_______,_______,_______, _______, _______, _______, \
-   KC_NO, KC_NO, LAYER_3, LAYER_3, LAYER_1,KC_SPC \
+        KC_NO,  KC_CALC,KC_F1,   KC_F2,  KC_F3,   KC_F4, KC_VOLU,  \
+        KC_NO, PRINT_INFO, _______,_______,_______, _______, KC_VOLD,    \
+        KC_NO, KC_LSFT,_______,_______,_______, _______, _______, _______, \
+        KC_NO, KC_NO, LAYER_3, LAYER_3, LAYER_1,KC_SPC \
 );
 
     /*
