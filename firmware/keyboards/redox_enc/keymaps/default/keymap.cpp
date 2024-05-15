@@ -21,7 +21,7 @@ LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR P
 
 #if KEYBOARD_SIDE == MASTER
 std::array<std::array<Key, MATRIX_COLS>, MATRIX_ROWS> matrix =
-    KEYMAPARRAY(KEYMAP(
+    KEYMAP2ARRAY(KEYMAP(
               KC_NO, KC_1,  KC_2,    KC_3,    KC_4,    KC_5,    KC_6,
               KC_NO, KC_7,  KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,
               KC_NO, KC_8,  KC_A,    KC_S,    KC_D,    KC_F,    KC_G,
